@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 var katzDeli = [ ]
+=======
+var katzDeliLine = [ ]
+>>>>>>> dd7895f716b5c937ba75a6aa4b0556f8fc1c9b75
 
 function takeANumber(deliLine, name) {
   deliLine.push(name)
@@ -6,6 +10,7 @@ function takeANumber(deliLine, name) {
   deliLine.length + " in line."
   
   return welcome
+<<<<<<< HEAD
 }
 
 function nowServing(deliLine) {
@@ -36,3 +41,6 @@ function currentLine(deliLine) {
   return lineMessage
 }
 
+=======
+}
+>>>>>>> dd7895f716b5c937ba75a6aa4b0556f8fc1c9b75
